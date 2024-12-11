@@ -60,7 +60,8 @@ namespace BrickManager {
 
             scroll_vbox.add (new Label ("%s v%s".printf (EXEC_NAME, VERSION)));
             scroll_vbox.add (new Label ("The ev3dev Brick Manager"));
-            scroll_vbox.add (new Label ("(C) 2014-2015 ev3dev.org"));
+            scroll_vbox.add (new Label ("(C) 2014-2019 ev3dev.org"));
+
             scroll_vbox.add (new Label ("System Info") {
                 border_bottom = 1,
                 padding_bottom = 3,
